@@ -1,4 +1,4 @@
-Survey Form
+Survey Form 
 
 Este é um formulário de pesquisa simples, criado com HTML. Ele permite que os usuários insiram informações pessoais e forneçam respostas para algumas perguntas de múltipla escolha, além de permitir a entrada de texto. O formulário inclui campos para nome, e-mail, idade, opções de seleção e resposta por texto.
 
