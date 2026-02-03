@@ -1,0 +1,85 @@
+/* Configurações Gerais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#title {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Container do Formulário */
+#survey-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Labels e Campos de Entrada */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Garante que o padding não quebre a largura */
+}
+
+/* Rádios e Checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Área de Texto */
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Botão de Envio */
+#submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: background 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #219150;
+}
