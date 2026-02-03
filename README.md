@@ -1,67 +1,66 @@
-Survey Form 
+# 📋 Survey Form - FreeCodeCamp Project
 
-Este é um formulário de pesquisa simples, criado com HTML. Ele permite que os usuários insiram informações pessoais e forneçam respostas para algumas perguntas de múltipla escolha, além de permitir a entrada de texto. O formulário inclui campos para nome, e-mail, idade, opções de seleção e resposta por texto.
+Este projeto consiste em um **formulário de pesquisa simples**, desenvolvido em **HTML e CSS**, permitindo a coleta de informações dos usuários por meio de campos de texto, seleções e perguntas de múltipla escolha.
 
-Funcionalidades
+O formulário foi criado como parte de um exercício prático para aprender a estruturar páginas web e criar interfaces interativas básicas.
 
-Campos de Entrada
+## 🚀 Funcionalidades
 
-Nome: O usuário é solicitado a inserir seu nome.
+### 🧾 Campos de Entrada
+- **Nome** – Campo para inserção do nome do usuário.
+- **E-mail** – Campo com validação para formato de e-mail válido.
+- **Idade** – Campo numérico para informar a idade.
 
-E-mail: O usuário insere seu e-mail, com validação para garantir que seja um e-mail válido.
+### 📑 Seleção de Opções
+- Menu suspenso (**dropdown**) para escolha de uma opção.
 
-Idade: O usuário deve inserir um valor numérico de 0 a 10 para representar a idade.
+### 🔘 Opções de Rádio
+- Pergunta de escolha única utilizando botões de rádio.
 
-Seleção de Opções
+### ☑️ Caixas de Seleção
+- Permite selecionar múltiplas opções.
 
-Um menu suspenso (dropdown) para o usuário escolher entre várias opções.
+### ✍️ Área de Texto
+- Campo para respostas mais longas ou comentários.
 
-Opções de Rádio
+### 📤 Botão de Envio
+- Botão **Submit** para envio do formulário.
 
-O usuário pode selecionar uma das duas opções de rádio para uma pergunta binária.
+## 🛠️ Tecnologias Utilizadas
 
-Caixas de Seleção
+- HTML5
+- CSS3
 
-O formulário inclui três caixas de seleção, permitindo que o usuário marque várias opções.
+## 📂 Estrutura do Projeto
 
-Área de Texto
+survey-form/
+├── index.html
+└── styles.css
+🌐 Acesse o Projeto Online
 
-O formulário inclui uma área de texto onde o usuário pode escrever respostas mais longas.
+🔗
 
-Botão de Envio
 
-O botão "Submit" permite ao usuário enviar o formulário.
+## 💻 Como Usar
 
-Estrutura do Código
+1. Clone o repositório:
 
-HTML: A estrutura do formulário é definida em HTML, com campos de entrada, seleção e envio.
+```bash
+git clone https://github.com/seu-usuario/survey-form.git
+Abra o arquivo index.html em seu navegador.
 
-CSS: O arquivo styles.css é incluído para adicionar estilo ao formulário.
+Preencha o formulário e utilize o botão Submit para simular o envio.
 
-Como Usar
+🤝 Como Contribuir
+Você pode contribuir com melhorias no projeto:
 
-Clone ou baixe este repositório para o seu computador.
+Fazer um fork do repositório
 
-Abra o arquivo index.html em um navegador para visualizar o formulário.
+Adicionar novos campos ou perguntas
 
-Preencha o formulário conforme solicitado.
+Melhorar o design e responsividade
 
-Clique no botão "Submit" para enviar as informações.
+Enviar um Pull Request com suas melhorias
 
-Como Contribuir
-
-Se você quiser melhorar ou adicionar novas funcionalidades ao formulário, pode:
-
-Fazer um fork deste repositório.
-
-Adicionar novos campos de entrada ou tipos de perguntas.
-
-Melhorar o design e a estética no arquivo styles.css.
-
-Após fazer suas alterações, envie um pull request para que possamos revisar e possivelmente integrar suas contribuições.
-
-Licença
-
-Este projeto é de código aberto e distribuído sob a Licença MIT.
-
-Esse formulário foi criado como parte de um exercício para aprender HTML e como criar interfaces interativas simples.
+📜 Licença
+Projeto gratuito e de código aberto para fins educacionais.
