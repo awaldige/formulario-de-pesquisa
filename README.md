@@ -1,66 +1,73 @@
-# 📋 Survey Form - FreeCodeCamp Project
+# 📋 Survey Form — Formulário de Pesquisa
 
-Este projeto consiste em um **formulário de pesquisa simples**, desenvolvido em **HTML e CSS**, permitindo a coleta de informações dos usuários por meio de campos de texto, seleções e perguntas de múltipla escolha.
+Projeto desenvolvido como parte dos exercícios do **FreeCodeCamp**, com o objetivo de praticar a criação e a estilização de formulários utilizando HTML5 e CSS3.
 
-O formulário foi criado como parte de um exercício prático para aprender a estruturar páginas web e criar interfaces interativas básicas.
+A página apresenta uma interface para preenchimento de informações, com diferentes tipos de campos e opções de resposta.
 
-## 🚀 Funcionalidades
+## 🌐 Demonstração
 
-### 🧾 Campos de Entrada
-- **Nome** – Campo para inserção do nome do usuário.
-- **E-mail** – Campo com validação para formato de e-mail válido.
-- **Idade** – Campo numérico para informar a idade.
+🔗 **[Acesse o formulário online](https://awaldige.github.io/formulario-de-pesquisa/)**
 
-### 📑 Seleção de Opções
-- Menu suspenso (**dropdown**) para escolha de uma opção.
+## ✨ Funcionalidades
 
-### 🔘 Opções de Rádio
-- Pergunta de escolha única utilizando botões de rádio.
+- 🧾 **Campos de texto:** entrada de nome e outras informações.
+- 📧 **Campo de e-mail:** validação básica do formato pelo navegador, caso configurada com `type="email"`.
+- 🔢 **Campo numérico:** preenchimento da idade.
+- 📑 **Menu suspenso:** seleção de uma opção.
+- 🔘 **Botões de rádio:** escolha de uma única alternativa.
+- ☑️ **Caixas de seleção:** escolha de múltiplas opções.
+- ✍️ **Área de texto:** preenchimento de comentários ou respostas mais detalhadas.
+- 📤 **Botão de envio:** permite submeter o formulário conforme a configuração implementada.
 
-### ☑️ Caixas de Seleção
-- Permite selecionar múltiplas opções.
-
-### ✍️ Área de Texto
-- Campo para respostas mais longas ou comentários.
-
-### 📤 Botão de Envio
-- Botão **Submit** para envio do formulário.
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do projeto
 
-survey-form/
+```text
+formulario-de-pesquisa/
 ├── index.html
-└── styles.css
-🌐 Acesse o Projeto Online
+├── styles.css
+└── README.md
+```
 
-🔗 https://awaldige.github.io/formulario-de-pesquisa/
-
-
-## 💻 Como Usar
+## 🚀 Como executar localmente
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/survey-form.git
-Abra o arquivo index.html em seu navegador.
+   ```bash
+   git clone https://github.com/awaldige/formulario-de-pesquisa.git
+   ```
 
-Preencha o formulário e utilize o botão Submit para simular o envio.
+2. Acesse a pasta do projeto:
 
-🤝 Como Contribuir
-Você pode contribuir com melhorias no projeto:
+   ```bash
+   cd formulario-de-pesquisa
+   ```
 
-Fazer um fork do repositório
+3. Abra o arquivo `index.html` no navegador.
 
-Adicionar novos campos ou perguntas
+Não é necessário instalar dependências para visualizar a página.
 
-Melhorar o design e responsividade
+## 🎯 Objetivo do projeto
 
-Enviar um Pull Request com suas melhorias
+Praticar os fundamentos do desenvolvimento front-end, incluindo:
 
-📜 Licença
-Projeto gratuito e de código aberto para fins educacionais.
+- Estruturação de páginas com HTML semântico.
+- Utilização de diferentes elementos de formulário.
+- Estilização de componentes com CSS.
+- Organização de arquivos de um projeto web.
+
+## 👨‍💻 Autor
+
+**AW TECHNOLOGY**
+
+Desenvolvido por [awaldige](https://github.com/awaldige).
+
+Confira outros projetos no [perfil do GitHub](https://github.com/awaldige).
+
+---
+
+📚 Projeto educacional desenvolvido para fins de aprendizado e prática de desenvolvimento web.
